@@ -84,7 +84,6 @@
                          NO);
             CGContextAddPath(context, pathRef);
             CGContextStrokePath(context);
-            //            CGPathCloseSubpath(pathRef);
             
             // 保存扇形，用于判断
             NSValue *angleValue = [NSValue valueWithCGPoint:CGPointMake(start, end)];
@@ -128,7 +127,7 @@
     self.pathsArray = [NSArray arrayWithArray:array];
 }
 #pragma mark -
-#pragma mark 响应手势
+#pragma mark action
 - (float)radiansToDegreesFromPointX:(CGPoint)start toPointY:(CGPoint)end toCenter:(CGPoint)center {
     float rads;
     CGFloat a = (end.x - center.x);
