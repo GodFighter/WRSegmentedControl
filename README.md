@@ -7,4 +7,4 @@
 
 控件为正方形，设置非正方形的尺寸设置为短边的正方形
 
-![](/Users/xianghui/Desktop/Simulator Screen Shot 2017年5月27日 下午2.29.33.png)
+![image](https://github.com/GodFighter/WRSegmentedControl/blob/master/WRSegmentedControlDemo/screenshot/Simulator%20Screen%20Shot%202017年5月27日%20下午2.29.33.png)
