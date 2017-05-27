@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WRSegmentedControl.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    WRSegmentedControl *segmentedControl = [[WRSegmentedControl alloc] initWithItems:@[@"x1", @"x2", @"x3"]];
+    segmentedControl.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:segmentedControl];
+    
+    [segmentedControl addTarget:self action:@selector(test:) forControlEvents:UIControlEventValueChanged];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)test:(WRSegmentedControl *)segmentedControl {
+    NSLog(@"%ld",segmentedControl.selectedIndex);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
