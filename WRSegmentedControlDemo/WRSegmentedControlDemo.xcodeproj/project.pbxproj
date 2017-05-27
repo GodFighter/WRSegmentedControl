@@ -13,6 +13,7 @@
 		BB22C16B1ED9176A00452389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB22C1691ED9176A00452389 /* Main.storyboard */; };
 		BB22C16D1ED9176A00452389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB22C16C1ED9176A00452389 /* Assets.xcassets */; };
 		BB22C1701ED9176A00452389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB22C16E1ED9176A00452389 /* LaunchScreen.storyboard */; };
+		BB22C1791ED917B200452389 /* WRSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BB22C1781ED917B200452389 /* WRSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BB22C16C1ED9176A00452389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB22C16F1ED9176A00452389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB22C1711ED9176A00452389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB22C1771ED917B200452389 /* WRSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRSegmentedControl.h; sourceTree = "<group>"; };
+		BB22C1781ED917B200452389 /* WRSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BB22C1641ED9176A00452389 /* AppDelegate.m */,
 				BB22C1661ED9176A00452389 /* ViewController.h */,
 				BB22C1671ED9176A00452389 /* ViewController.m */,
+				BB22C1771ED917B200452389 /* WRSegmentedControl.h */,
+				BB22C1781ED917B200452389 /* WRSegmentedControl.m */,
 				BB22C1691ED9176A00452389 /* Main.storyboard */,
 				BB22C16C1ED9176A00452389 /* Assets.xcassets */,
 				BB22C16E1ED9176A00452389 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22C1681ED9176A00452389 /* ViewController.m in Sources */,
+				BB22C1791ED917B200452389 /* WRSegmentedControl.m in Sources */,
 				BB22C1651ED9176A00452389 /* AppDelegate.m in Sources */,
 				BB22C1621ED9176A00452389 /* main.m in Sources */,
 			);
@@ -314,6 +320,7 @@
 				BB22C1761ED9176A00452389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
